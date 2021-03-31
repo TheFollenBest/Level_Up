@@ -221,6 +221,7 @@ h1{
     color: #EAEAEA;
 
     margin-top: 101px;
+    padding-bottom: 50px;
 }
 
 .small_card{
@@ -232,7 +233,7 @@ h1{
     padding: 15px 15px 15px 17px;
 }
 
-.like-text{
+.small_card_text{
     font-family: 'Neo Sans Pro';
     font-style: normal;
     font-weight: normal;
@@ -244,7 +245,77 @@ h1{
 
     color: #EAEAEA;
     padding: 0px 22px;
+}
 
+.our_services{
+    font-family: 'Neo Sans Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 58px;
     
+    display: flex;
+    align-items: center;
+
+    color: #EAEAEA;
+
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.card{
+    height: 619px;
+
+    background: #232323;
+    border-radius: 5px;
+    
+    padding: 20px;
+    margin: 10px;
+}
+
+.card_title{
+    font-family: 'Neo Sans Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+   
+    display: flex;
+    align-items: center;
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    color: #EAEAEA;
+}
+
+.card_text{
+    font-family: 'Neo Sans Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+   
+    color: #FFFFFF;
+
+    padding-bottom: 70px;
+    padding-right: 66px;
+}
+
+
+.about_btn{
+    font-family: 'Neo Sans Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    
+    display: flex;
+    align-items: center;
+
+    color: #FFED00;
+
+    padding-left: 20px;
+    padding-bottom: 20px;
 }
 

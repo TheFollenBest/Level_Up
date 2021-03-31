@@ -1,0 +1,250 @@
+
+/* ~ Шрифты ~ */
+@font-face {
+    font-family: 'Neo Sans Pro Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: url('NeoSansPro-Regular.eot');
+    src: url('NeoSansPro-Regular.eot?#iefix') format('embedded-opentype'),
+    url('NeoSansPro-Regular.woff') format('woff'),
+    url('NeoSansPro-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Neo Sans Pro Medium';
+    src: url('NeoSansPro-Medium.eot');
+    src: url('NeoSansPro-Medium.eot?#iefix') format('embedded-opentype'),
+    url('NeoSansPro-Medium.woff') format('woff'),
+    url('NeoSansPro-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neo Sans Pro Bold';
+    src: url('NeoSansPro-Bold.eot');
+    src: url('NeoSansPro-Bold.eot?#iefix') format('embedded-opentype'),
+    url('NeoSansPro-Bold.woff') format('woff'),
+    url('NeoSansPro-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* ~ Общие стили ~ */
+
+body{
+    background: #131313;
+    color: #EAEAEA;
+
+    -webkit-font-smoothing: antialiased;
+
+    font-family: 'neo sans pro regular';
+}
+
+
+.container{
+    max-width: 1194px;
+}
+
+p{
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #EAEAEA;
+}
+
+h1{
+    font-family: 'Neo Sans Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #EAEAEA;
+
+    margin: 0;
+}
+
+/* ~ Header ~ */
+.header_contacts{
+    background: #232323;
+}
+
+.header_main{
+    background-color: #131313;
+}
+
+
+/* ==Серый текст== */
+.contact_gray{
+    color: #8D8D8D;
+    font-family: 'Neo Sans Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+/* ==Белый текст== */
+.contact_info{
+    color: #EAEAEA;
+    font-family: 'Neo Sans Pro';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 15px;
+}
+
+/* ==Margin== */
+.mt-15px{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+/* ==Margin== */
+.mr-20px{
+    margin-right: 20px;
+}
+
+/* ==Линия== */
+.line{
+    list-style: none;
+    
+    display: inline-block;
+    border-right: 2px solid #3c3c3c;
+    line-height: 96px;
+    padding-right: 88px;
+    
+}
+
+/* ==Лого== */
+.logo{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* ==Кнопка "Заказать звонок"== */
+.button_call{
+    background: #FFED00;
+    border-radius: 5px;
+    font-family: 'Neo Sans Pro';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    color: #1F1F1F;
+
+    border: none;
+
+    height: 50px;
+    max-width: 178px;
+
+    text-align: center;
+    display: inline-block;
+    
+}
+
+/* ==Текст "Возникли вопросы?"== */
+.questions{
+    font-family: 'Neo Sans Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 9px;
+    padding-left: 60px;
+}
+
+/* ==Текст "Задать вопрос"== */
+.ask_question{
+    font-family: 'Neo Sans Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+
+    padding-left: 60px;
+
+    color: #FFED00;
+}
+
+/* ==Навигационная панель== */
+.navbar_LevelUp{
+    background-color: #0D0D0D;
+    height: 57px;
+
+    display: flex;
+    align-items: center;
+
+    justify-content: space-between;
+}
+
+/* ==Текст навигационной панели== */
+.text{
+    font-family: 'Neo Sans Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    color: #FFED00;
+}
+
+/* ==Padding== */
+.pl{
+    padding-left: 60px;
+}
+
+/* ==Текст "Почему именно мы?"== */
+.why{
+    font-family: 'Neo Sans Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 58px;
+    
+    color: #EAEAEA;
+
+    margin-top: 101px;
+}
+
+.small_card{
+    background-color: #232323;
+    border-radius: 5px;
+    height: 90px;
+    display: flex;
+    margin: 15px;
+    padding: 15px 15px 15px 17px;
+}
+
+.like-text{
+    font-family: 'Neo Sans Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    
+    display: flex;
+    align-items: center;
+
+    color: #EAEAEA;
+    padding: 0px 22px;
+
+    
+}
+

@@ -96,7 +96,7 @@
               <a class="d-block contact_info" href="mailto:boss_level_up@bk.ru">boss_level_up@bk.ru</a>
             </div>
 
-            <div class="col-1 d-flex justify-content-end p-0">
+            <div class="col-1 d-flex justify-content-end">
               <a href=""><img class="rounded-3 mr-20px" src="./img/vk.svg" alt="vk" /></a>
               <a href=""><img src="./img/instagram.svg" alt="instagram" /></a>
             </div>
@@ -120,7 +120,7 @@
                 <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal2"><p class="ask_question">Задать вопрос</p></a>
               </div>
 
-              <div class="col-2 p-0">
+              <div class="col-2">
                 <button type="button" class="button_call w-100 float-end" data-bs-toggle="modal" data-bs-target="#exampleModal">Заказать звонок</button>
               </div>
             </div>
@@ -441,13 +441,13 @@
           <div class="row" novalidate="">
             <div class="col-lg-4 col-md-6">
               <label class="feedback_contact_gray">ФИО</label>
-              <input class="feedback_input form-control" type="name" name="ФИО" placeholder="Иванов Иван Иванович" required=""/>
+              <input class="feedback_input form-control" id="validationFIO" type="name" name="ФИО" placeholder="Иванов Иван Иванович" required/>
             </div>
-              <div class="col-lg-4 col-md-6"><label class="feedback_contact_gray">Телефон</label>
-              <input class="feedback_input form-control number" type="number" name="Телефон" placeholder="+7 961 114 5503" required=""/>
+            <div class="col-lg-4 col-md-6"><label class="feedback_contact_gray">Телефон</label>
+              <input class="feedback_input form-control number" id="validationNimber" type="number" name="Телефон" placeholder="+7 961 114 5503" minlength="1" required/>
             </div>
             <div class="col-lg-4 col-12">
-              <button class="feedback_button">Отправить</button>
+              <button type="submit" class="feedback_button">Отправить</button>
             </div>
           </div>
         </form>
@@ -469,18 +469,20 @@
               </svg>
             </button>
           </div>
+          <form>
           <div class="modal-body">
             <div class="col-12">
               <label class="feedback_contact_gray mt-0">ФИО</label>
-              <input class="feedback_input form-control" type="name" name="ФИО" placeholder="Иванов Иван Иванович" required=""/>
+              <input class="feedback_input form-control" id="validationFIO" type="name" name="ФИО" placeholder="Иванов Иван Иванович" required/>
             </div>
               <div class="col-12"><label class="feedback_contact_gray">Телефон</label>
-              <input class="feedback_number form-control" type="number" name="Телефон" placeholder="+7 961 114 5503" required=""/>
+                <input class="feedback_input form-control number" id="validationNimber" type="number" name="Телефон" placeholder="+7 961 114 5503" minlength="1" required/>
             </div>
           </div>
           <div class="modal-footer">
-            <button type="button" class="button_modal">Заказать звонок</button>
+            <button type="submit" class="feedback_button_modal">Отправить</button>
           </div>
+        </form>
         </div>
       </div>
     </div>
@@ -496,18 +498,20 @@
               </svg>
             </button>
           </div>
+          <form>
           <div class="modal-body">
             <div class="col-12">
               <label class="feedback_contact_gray mt-0">ФИО</label>
-              <input class="feedback_input form-control" type="name" name="ФИО" placeholder="Иванов Иван Иванович" required=""/>
+              <input class="feedback_input form-control" id="validationFIO" type="name" name="ФИО" placeholder="Иванов Иван Иванович" required/>
             </div>
               <div class="col-12"><label class="feedback_contact_gray">Вопрос</label>
-                <textarea class=" form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <textarea class=" form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
             </div>
           </div>
           <div class="modal-footer">
-            <button type="button" class="button_modal">Отправить</button>
+            <button type="submit" class="button_modal">Отправить</button>
           </div>
+        </form>
         </div>
       </div>
     </div>

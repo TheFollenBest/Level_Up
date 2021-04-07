@@ -18,6 +18,8 @@ body{
 
 .container{
     max-width: 1194px;
+    padding-left: 12px;
+    padding-right: 12px;
 }
 
 p{
@@ -367,6 +369,10 @@ h5{
 
     color: #FFED00;
 
+}
+
+.about_btn:hover{
+    color: #2f89ff;
 }
 
 /* ==Слайдер "Наши клиенты"== */
